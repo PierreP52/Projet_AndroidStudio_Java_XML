@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/idTitrePage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/nouvel_text"/>
+
+    <EditText
+        android:id="@+id/idEditMatricule"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/matricule_text"/>
+    <EditText
+        android:id="@+id/idEditNom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/nom_text"/>
+    <EditText
+        android:id="@+id/idEditPrenom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/prenom_text"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupSexe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/idSexe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sexe_text"/>
+
+        <RadioButton
+            android:id="@+id/idCheckbox_homme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/homme_text" />
+
+        <RadioButton
+            android:id="@+id/idCheckbox_femme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/femme_text"/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroupEtatCivil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/idEtatCivil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/etat_text"/>
+
+        <RadioButton
+            android:id="@+id/idCheckbox_Marie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/marie_text" />
+
+        <RadioButton
+            android:id="@+id/idCheckbox_celibataire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/celibataire_text"/>
+
+        <RadioButton
+            android:id="@+id/idCheckbox_separe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/separe_text"/>
+
+        <RadioButton
+            android:id="@+id/idCheckbox_veuf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/veuf_text"/>
+
+        <RadioButton
+            android:id="@+id/idCheckbox_conjoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/conjoint_text"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/idLanguesParle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/langues_text"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/idFrancais"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/francais_text"/>
+            <CheckBox
+                android:id="@+id/idAnglais"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/anglais_text"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/idAutres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/autres_text"/>
+            <EditText
+                android:id="@+id/idLangueSup"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="langue suplémentaire"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/idSalaire"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/salaires_text"/>
+    <Button
+        android:id="@+id/idMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_text"
+        android:layout_marginLeft="300dp"/>
+</LinearLayout>

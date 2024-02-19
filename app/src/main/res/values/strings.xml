@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">lab03-exercice3</string>
+    <string name="nouvel_text">Nouvel Employé</string>
+    <string name="saisi_text">Employé Saisi</string>
+    <string name="matricule_text">Matricule :</string>
+    <string name="nom_text">Nom</string>
+    <string name="prenom_text">Prénom </string>
+    <string name="sexe_text">Sexe :</string>
+    <string name="homme_text">Homme</string>
+    <string name="femme_text">Femme</string>
+    <string name="etat_text">État Civil :</string>
+    <string name="marie_text">Marié(e)</string>
+    <string name="celibataire_text">Célibataire</string>
+    <string name="separe_text">Séparé(e)</string>
+    <string name="veuf_text">Veuf</string>
+    <string name="conjoint_text">Conjoint(e) de fait</string>
+    <string name="langues_text">Langue(s) Parlée(s) :</string>
+    <string name="francais_text">Français</string>
+    <string name="anglais_text">Anglais</string>
+    <string name="autres_text">Autres langues :</string>
+    <string name="salaires_text">Salaires$</string>
+    <string name="afficher_text">Afficher</string>
+    <string name="menu_text">Menu Principal</string>
+
+</resources>
